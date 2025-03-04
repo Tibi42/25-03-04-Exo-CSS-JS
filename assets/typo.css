@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Permanent+Marker&family=Rubik+Puddles&display=swap');
+
+/* Typography Styles */
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 6rem;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4.5rem;
+    letter-spacing: 4px;
+}
+
+h3 {
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 3.5rem;
+    transform: skew(-5deg);
+    
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    font-weight: 500;
+    /* gerer le debordement du text */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+}
+
+.highlight-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+    -webkit-background-clip: text;
+    color: transparent;
+}
