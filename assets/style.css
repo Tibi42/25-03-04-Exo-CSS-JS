@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
   /* espace a gauche et a droite */
-  text-align: center;
+  /* text-align: center; */
   align-items: center;
   color: white;
   display: flex;
